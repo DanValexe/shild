@@ -1,0 +1,148 @@
+@media print{
+    #AddTextInput{
+        display: none !important;
+    }
+    #dropdownMenuButton1 {
+        display: none !important;
+    }
+    #dropMenuPdf {
+        display: none !important;
+    }
+    .navbar {
+        display: none !important;
+    }
+}
+#AddTextInput {
+    margin-left: 10px; 
+}
+.input {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    border-radius: 0px;
+    color: gray;
+}
+.input:focus {
+    border-image: linear-gradient(to right, #10abff 0%, #1beabd 100%) 1;
+    border-bottom: solid;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(160,160,160);
+}
+.containerPDF {
+    height: auto;
+    padding-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /* start Container */
+ .container{
+    height: 150px;
+    width: 530px;
+    padding: 0px;
+    border: 1px dashed black;
+    margin-top: 20px;
+ }
+/* start ContainerBorderRadius */
+ .containerBorderRadius{
+    height: 140px;
+    width: 520px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+ }
+/* start ContainerQRCode */
+.ContainerQRCode {
+    height: 132px;
+    width: 132px;
+    margin-right: 2px;
+    margin-top: 2px;
+    float: right;
+}
+#qrcode{
+    margin: 2px;
+    margin-right: 10px;
+}
+/* end ContainerQRCode */
+/* start ContainerIconOrg */
+.containerIconOrg{
+    height: 50px;
+    width: 385px;
+}
+.liIconOrg {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#IconOrg{
+    display: block;
+    height: 35px;
+    width: 130px;
+    margin: 5px;
+}
+.NameOrg {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    height: 37px;
+}
+/* end ContainerIconOrg */
+#Trainer {
+    height: 20px;
+    /* width: 360px; */
+    width: fit-content;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 14.8px;
+    margin-left: 13px;
+}
+#Number {
+    height: 20px;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 13px;
+}
+.god {
+    display: flex;
+}
+.pepe {
+    align-items: center;
+}
+#Date, #TY {
+    height: 20px;
+    width: 240px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.liIconHomeBook {
+    display: flex;
+    align-items: center;
+}
+#IconHome {
+    height: 36px;
+    width: 46px;
+    margin: 0px 0px 0px 0px;
+}
+#IconBook {
+    height:39px;
+    width: 47px;
+    margin: 0px 0px 0px 8px;
+}
+    /* end ContainerBorderRadius */
+/* end Container */
+
+#modalHeader {
+    border-image: linear-gradient(to right, #10abff 0%, #1beabd 70%) 1;
+    border-bottom: solid;
+}
+#modalFooter {
+    border-image: linear-gradient(to right, #10abff 0%, #1beabd 130%) 1;
+    border-top: solid;
+}
+.navbar {
+    border-image: linear-gradient(to right, #10abff 0%, #1beabd 100%) 1;
+    border-top: 4px solid;
+}
